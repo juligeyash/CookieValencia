@@ -1,36 +1,74 @@
 .mainContainer {
-    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-family: "Rubik", sans-serif;
     background: #f0ece2; 
     margin: 30px 20px 30px 20px;
     padding:  10px 10px 10px 10px;
-}
+    font-family: "Hepta Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    }
+
 .topBanner {
     display: flex;
     background-color: white;
     justify-content: space-evenly;
-    margin: 10px auto;
+    margin: 10px 20px;
     padding: 17px;
     font-size: 20px;
 }
 .midContainer {
     margin: 40px 20px;
-}
+    }
+
 h1 {
     font-size: 20px;
+    margin-left: 60px;
+    margin-bottom: 10px;
 }
-h2 {
-    font-size: 17px;
-}
+
 p {
+    width:60%;
     font-size: 15px;
+    background-color: white;
+    padding: 30px 30px;
+    margin: 30px 50px 10px 50px;
+    border-radius: 10px;
+    width:50%;
+    display: block;
+    justify-content: center;
    }
 
-.profilePicture {
-    width: 30%;
-    border-radius: 8px;
-    margin:15px 0;
+img {
+    width: 20%;
+    border-radius: 10px;
+    margin:30px 50px 10px 10px;
+    transition: all 150ms ease-in-out;
+    }
+
+    strong{
+        font-size: 18px;
+        line-height: 20px;
+    }
+
+img:hover {
+    filter: contrast(80%);
+    transform: scale(1.1);
 }
 
 .recap {
-    display: grid;
+    display: flex;
 }
+
+.opportunity {
+    display: flex;
+}
+
+footer {
+  padding: 2px 0 14px 0;
+  text-align: center;
+  font-size: 13px;
+  color: rgba(0, 0, 0, 0.6);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  }
