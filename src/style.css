@@ -25,3 +25,12 @@ p {
     font-size: 15px;
    }
 
+.profilePicture {
+    width: 30%;
+    border-radius: 8px;
+    margin:15px 0;
+}
+
+.recap {
+    display: grid;
+}
