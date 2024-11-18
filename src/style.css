@@ -1,0 +1,27 @@
+.mainContainer {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    background: #f0ece2; 
+    margin: 30px 20px 30px 20px;
+    padding:  10px 10px 10px 10px;
+}
+.topBanner {
+    display: flex;
+    background-color: white;
+    justify-content: space-evenly;
+    margin: 10px auto;
+    padding: 17px;
+    font-size: 20px;
+}
+.midContainer {
+    margin: 40px 20px;
+}
+h1 {
+    font-size: 20px;
+}
+h2 {
+    font-size: 17px;
+}
+p {
+    font-size: 15px;
+   }
+
