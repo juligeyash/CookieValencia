@@ -81,6 +81,26 @@ img:hover {
     display: flex;
 }
 
+button {
+    background-color: #c7b198;
+    color: white;
+    width: 70%;
+    font-size: 20px;
+    padding: 10px 10px;
+    border-radius: 10px;
+    display: block;
+    font-weight: bold;
+    border: none;
+    align-items: center;
+    transition: all 150ms ease-in-out;
+}
+
+button:hover {
+        background: #757a79;
+        cursor: pointer;
+      }
+
+
 footer {
   padding: 2px 0 14px 0;
   text-align: center;
